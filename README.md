@@ -1,4 +1,4 @@
-# claude-agy-cli-icons
+# claude-agy-cli-image
 
 A [Claude Code](https://claude.com/claude-code) skill that generates images
 from a text description using the [Antigravity (`agy`) CLI](https://antigravity.google/product/antigravity-cli).
@@ -15,10 +15,14 @@ produce a PNG and save it to your working directory with a timestamped filename.
 
 ## Install
 
-Pick one:
+git clone https://github.com/haolun1996/claude-agy-cli-image.git
 
-- **Folder** — copy the `agy-image-generator/` directory into your Claude skills
-  directory (e.g. `~/.claude/skills/`).
+# Personal skills (all projects)
+cp -r claude-agy-cli-image ~/.claude/skills/
+
+# OR for a single project
+cp -r claude-agy-cli-image /path/to/project/.claude/skills/
+```
 
 Once installed, the skill triggers automatically whenever you ask Claude to create,
 generate, or make an icon, logo, glyph, or image from a description.
