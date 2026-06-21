@@ -1,7 +1,7 @@
 ---
-name: agy-icon-generator
+name: claude-agy-cli-image
 description: >-
-  Generate image icons (PNG) from a text description using the Antigravity
+  Generate images (PNG) from a text description using the Antigravity
   (`agy`) CLI's image-generation feature, saving them to disk with timestamped
   filenames. Use this skill whenever the user wants to create, generate, make,
   or produce an icon, app icon, logo, glyph, button graphic, or any image from
@@ -13,9 +13,9 @@ description: >-
   answering questions about the agy CLI itself.
 ---
 
-# agy-icon-generator
+# agy-image-generator
 
-Generate one or more image icons from a text prompt using the Antigravity CLI
+Generate one or more images from a text prompt using the Antigravity CLI
 (`agy`) and save them as timestamped PNG files. No bundled scripts — you run
 `agy` directly following the steps below.
 
